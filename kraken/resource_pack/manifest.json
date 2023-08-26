@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Meu kraken",
+    "name": "Kraken",
+    "uuid":"c3715b1a-383d-45d0-ad98-37b81ba1e923",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+   },
+  "modules": [
+    {
+      "description": "Meu kraken",
+      "type": "resources",
+      "uuid": "bb9d4210-b911-4f0e-93a2-1c8d9b6310a2",
+      "version": [1, 0, 0]
+    }
+  ]
+ }

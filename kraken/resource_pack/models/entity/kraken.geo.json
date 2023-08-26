@@ -1,0 +1,93 @@
+{
+	"format_version": "1.10.0",
+	"geometry.kraken": {
+		"texturewidth": 512,
+		"textureheight": 512,
+		"visible_bounds_width": 8,
+		"visible_bounds_height": 14,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-45, -7, -39], "size": [90, 100, 90], "uv": [0, 0]}
+				],
+				"locators": {
+					"lead": [1, 40, 50]
+				}
+			},
+			{
+				"name": "tentacle1",
+				"parent": "body",
+				"pivot": [5, -86, 0],
+				"rotation": [0, 90, 0],
+				"cubes": [
+					{"origin": [12, -100, -30], "size": [10, 100, 10], "uv": [273, 183]}
+				]
+			},
+			{
+				"name": "tentacle2",
+				"parent": "body",
+				"pivot": [3.5, -88, 3.5],
+				"rotation": [0, 45, 0],
+				"cubes": [
+					{"origin": [-5.5, -106, 24.5], "size": [10, 100, 10], "uv": [240, 190]}
+				]
+			},
+			{
+				"name": "tentacle3",
+				"parent": "body",
+				"pivot": [0, -89, 5],
+				"cubes": [
+					{"origin": [14, -105, 0], "size": [10, 100, 10], "uv": [200, 190]}
+				]
+			},
+			{
+				"name": "tentacle4",
+				"parent": "body",
+				"pivot": [-3.5, -88, 3.5],
+				"rotation": [0, -45, 0],
+				"cubes": [
+					{"origin": [-28.5, -106, 13.5], "size": [10, 100, 10], "uv": [160, 190]}
+				]
+			},
+			{
+				"name": "tentacle5",
+				"parent": "body",
+				"pivot": [-5, -86, 0],
+				"rotation": [0, -90, 0],
+				"cubes": [
+					{"origin": [-14, -102, 29], "size": [10, 100, 10], "uv": [120, 190]}
+				]
+			},
+			{
+				"name": "tentacle6",
+				"parent": "body",
+				"pivot": [-3.5, -84, -3.5],
+				"rotation": [0, -135, 0],
+				"cubes": [
+					{"origin": [21.5, -102, -4.5], "size": [10, 100, 10], "uv": [80, 190]}
+				]
+			},
+			{
+				"name": "tentacle7",
+				"parent": "body",
+				"pivot": [0, -7, -5],
+				"rotation": [0, -180, 0],
+				"cubes": [
+					{"origin": [-38, -101, -16], "size": [10, 100, 10], "uv": [40, 190]}
+				]
+			},
+			{
+				"name": "tentacle8",
+				"parent": "body",
+				"pivot": [3.5, -7, -3.5],
+				"rotation": [0, -225, 0],
+				"cubes": [
+					{"origin": [-5.5, -102, 10.5], "size": [10, 100, 10], "uv": [0, 190]}
+				]
+			}
+		]
+	}
+}
